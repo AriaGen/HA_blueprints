@@ -147,6 +147,12 @@ blueprint:
           name: Subtitle
           description: A secondary heading you can use in your notifications.
           default: ""
+        ai_desc:
+          name: AI Description
+          description: Update to show the AI Description
+          default: false
+          selector:
+            boolean:
         critical:
           name: Critical Notification (Optional)
           description: |
